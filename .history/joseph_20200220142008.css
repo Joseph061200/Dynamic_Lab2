@@ -1,0 +1,26 @@
+body,html {
+    margin: 0;
+}
+.app{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellowgreen;
+}
+.pop_up{
+    width: 500px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: yellowgreen;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px darkgreen,-10px -10px 20px yellowgreen;
+
+}
+h1 {
+    font-size: 60px;
+}

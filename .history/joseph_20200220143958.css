@@ -1,0 +1,40 @@
+body,html {
+    margin: 0;
+}
+.app{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellowgreen;
+}
+.pop_up{
+    width: 500px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: yellowgreen;
+    border-radius: 20px;
+    box-shadow: 6px 6px 16px darkgreen,-6px -6px 16px white;
+
+}
+h1 {
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    color: darkgreen;
+}
+input{
+    padding: 10px;
+    border-radius: 10px;
+}
+button{
+    padding: 10px;
+    background-color: darkgreen;
+    color: white;
+    font-weight: bold;
+}
