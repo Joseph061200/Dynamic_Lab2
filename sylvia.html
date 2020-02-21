@@ -8,11 +8,13 @@
     <body>
         <div class="container">
             <div class="modal">
-                <p>Question... </p>
-                <form>
-                    <input type="text"> <input type="submit">
-                </form>
+                <p id="question">What comes after A? </p>
+                <div id="answerbox">
+                    <input type="text" id="answer" placeholder="answer here..."> <button onclick="CheckAnswer()">Help</button>
+                </div>
+                <div id="newalert"></div>
             </div>
         </div>
+        <script src="sylvia.js"></script>
     </body>
 </html>
