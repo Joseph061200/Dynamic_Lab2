@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-color:#f0e2e5;
+}
+
+.modal {
+    width: 550px;
+    height: 500px;
+    border-radius: 25px;
+    background: #f0e2e5;
+    box-shadow:  5px 5px 10px #dfd2d5, 
+                 -5px -5px 10px #fff2f5;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#answerbox {
+    display: flex;
+}
+p {
+    font-size: 28px;
+}
+
+#newalert{
+    width: 300px;
+    height: 100px;
+    text-align: center;
+}
